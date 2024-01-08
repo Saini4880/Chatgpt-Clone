@@ -1,0 +1,308 @@
+.App{
+  display: flex;
+}
+body {
+  background: white;
+}
+
+.uppersidetop {
+  margin-top: 0.1px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.uppersidebottom {
+  margin-top: 20px;
+}
+
+.query {
+  margin-bottom: 8px;
+}
+
+.lowerside {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.listitems {
+  margin-bottom: 15px;
+}
+
+.midbtn {
+  margin-bottom: 5px;
+}
+.query{
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: #000000;
+  padding: 0.5rem;
+  width: 25rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  border: 2px solid white;
+}
+
+.listitems{
+  display: flex;
+  align-items: center;
+  background: white;
+  color: #343131;
+  padding: 0.5rem;
+  width: 25rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  margin-bottom: 1px;
+}
+.midbtn{
+  display: flex;
+  align-items: center;
+  background: white;
+  color: #343131;
+  padding: 0.5rem;
+  width: 25rem;
+  margin: 0.1rem auto 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+}
+.uppersidetop{
+  margin-top: -10px;
+}
+.uppersidebottom{
+  margin-top: -20px;
+}
+
+.mainbar{
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 10rem;
+  flex: 2;
+  padding: 20px;
+  background-color: #ffffff;
+  height: 1000px;
+}
+.sidebar {
+  flex: 1;
+  height: auto;
+  width: 2px;
+  padding: 20px;
+}
+
+.chatFooter{
+  margin-top: -40px;
+}
+.inp {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  height: 40px;
+  margin-top: 130px;
+}
+
+.inp > input {
+  height: 100%;
+  width: 82%;
+  background: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-right: 1000px;
+}
+
+.inp > button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.imp{
+  color: #312f2f;
+  text-align: center;
+  padding-top: 10px;
+}
+.inpImg{
+   margin-right: -100px;
+}
+
+.ques{
+  color: #312f2f;
+}
+.ans{
+  color: #312f2f;
+}
+.chatbox{
+   scroll-behavior: smooth;
+   width: 100%;
+   max-width: 70rem;
+   height: 200px;
+}
+.chats1{
+  background: white;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.chats2{
+  background: white;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin-top: 10px;
+  max-height: 2000px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.txtImg{
+  object-fit: cover;
+  width: 3.5rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+  margin-right: 10px;
+}
+.ques,
+.ans {
+  margin: 0;
+}
+
+
+.stopgenerating {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding: 20px 20px;
+  padding-top: 100px;
+}
+.stpbtn {
+  color: black;
+  border: 1px solid white;
+  background: white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.stpbtn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.topdiv {
+  display: flex;
+  align-items: center;
+}
+
+.vct {
+  width: 50px;
+  height: 50px;
+  margin-right: 1px;
+}
+
+.topdiv>span {
+  color: black;
+  font-size: 20px;
+}
+.vt {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.dropdown{
+  margin-bottom: 10px;
+}
+.clrchat{
+  background: transparent;
+  border: 2px solid white;
+  color: #000000;
+  border-radius: 2px;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+.dropt {
+  background: white;
+  color: #000000;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-size: 25px;
+  padding: 2px 20px;
+}
+
+
+.send {
+  width: 220px;
+  height: 220px;
+}
+
+.textt {
+  text-align: center;
+}
+
+.textt p {
+  color: #000000;
+  font-size: 30px;
+}
+
+
+.tb-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 110px;
+}
+
+.tb1, .tb2, .tb3, .tb4 {
+  flex: 0 0 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.tb1 p, .tb2 p, .tb3 p, .tb4 p {
+  background: white;
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: none;
+  z-index: 1;
+  color: #000000;
+}
+
+.dropdown.active .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #000000;
+}
+
+.dropdown-item:hover {
+  background-color: #000000;
+}
